@@ -33,7 +33,7 @@ const dbURL = process.env.ATLASDB_URL;
 
 if (!dbURL) {
   console.error("Error: ATLASDB_URL is not defined in environment variables!");
-  process.exit(1); // Stop execution
+  process.exit(1); 
 }
 
 async function connectDB() {
